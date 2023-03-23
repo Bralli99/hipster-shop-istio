@@ -14,7 +14,7 @@
 # limitations under the License.
 
 # [START istio_istio_samples_stackdriver_metrics_handler_stackdriver]
-apiVersion: config.istio.io/v1alpha1
+apiVersion: config.istio.io/v1alpha2
 kind: handler
 metadata:
   labels:
@@ -174,7 +174,7 @@ spec:
 # [END istio_istio_samples_stackdriver_metrics_handler_stackdriver]
 ---
 # [START istio_istio_samples_stackdriver_metrics_rule_stackdriver_server]
-apiVersion: config.istio.io/v1alpha1
+apiVersion: config.istio.io/v1alpha2
 kind: rule
 metadata:
   labels:
@@ -194,7 +194,7 @@ spec:
 # [END istio_istio_samples_stackdriver_metrics_rule_stackdriver_server]
 ---
 # [START istio_istio_samples_stackdriver_metrics_rule_stackdriver_client]
-apiVersion: config.istio.io/v1alpha1
+apiVersion: config.istio.io/v1alpha2
 kind: rule
 metadata:
   labels:
@@ -214,7 +214,7 @@ spec:
 # [END istio_istio_samples_stackdriver_metrics_rule_stackdriver_client]
 ---
 # [START istio_istio_samples_stackdriver_metrics_rule_stackdriver_tcp_server]
-apiVersion: config.istio.io/v1alpha1
+apiVersion: config.istio.io/v1alpha2
 kind: rule
 metadata:
   labels:
@@ -231,7 +231,7 @@ spec:
 # [END istio_istio_samples_stackdriver_metrics_rule_stackdriver_tcp_server]
 ---
 # [START istio_istio_samples_stackdriver_metrics_rule_stackdriver_tcp_client]
-apiVersion: config.istio.io/v1alpha1
+apiVersion: config.istio.io/v1alpha2
 kind: rule
 metadata:
   labels:
@@ -248,7 +248,7 @@ spec:
 # [END istio_istio_samples_stackdriver_metrics_rule_stackdriver_tcp_client]
 ---
 # [START istio_istio_samples_stackdriver_metrics_instance_server_request_count]
-apiVersion: config.istio.io/v1alpha1
+apiVersion: config.istio.io/v1alpha2
 kind: instance
 metadata:
   labels:
@@ -293,7 +293,7 @@ spec:
 # [END istio_istio_samples_stackdriver_metrics_instance_server_request_count]
 ---
 # [START istio_istio_samples_stackdriver_metrics_instance_client_request_count]
-apiVersion: config.istio.io/v1alpha1
+apiVersion: config.istio.io/v1alpha2
 kind: instance
 metadata:
   labels:
@@ -335,7 +335,7 @@ spec:
 # [END istio_istio_samples_stackdriver_metrics_instance_client_request_count]
 ---
 # [START istio_istio_samples_stackdriver_metrics_instance_server_request_bytes]
-apiVersion: config.istio.io/v1alpha1
+apiVersion: config.istio.io/v1alpha2
 kind: instance
 metadata:
   labels:
@@ -380,7 +380,7 @@ spec:
 # [END istio_istio_samples_stackdriver_metrics_instance_server_request_bytes]
 ---
 # [START istio_istio_samples_stackdriver_metrics_instance_client_request_bytes]
-apiVersion: config.istio.io/v1alpha1
+apiVersion: config.istio.io/v1alpha2
 kind: instance
 metadata:
   labels:
@@ -422,7 +422,7 @@ spec:
 # [END istio_istio_samples_stackdriver_metrics_instance_client_request_bytes]
 ---
 # [START istio_istio_samples_stackdriver_metrics_instance_server_response_bytes]
-apiVersion: config.istio.io/v1alpha1
+apiVersion: config.istio.io/v1alpha2
 kind: instance
 metadata:
   labels:
@@ -467,7 +467,7 @@ spec:
 # [END istio_istio_samples_stackdriver_metrics_instance_server_response_bytes]
 ---
 # [START istio_istio_samples_stackdriver_metrics_instance_client_response_bytes]
-apiVersion: config.istio.io/v1alpha1
+apiVersion: config.istio.io/v1alpha2
 kind: instance
 metadata:
   labels:
@@ -509,7 +509,7 @@ spec:
 # [END istio_istio_samples_stackdriver_metrics_instance_client_response_bytes]
 ---
 # [START istio_istio_samples_stackdriver_metrics_instance_server_response_latencies]
-apiVersion: config.istio.io/v1alpha1
+apiVersion: config.istio.io/v1alpha2
 kind: instance
 metadata:
   labels:
@@ -554,7 +554,7 @@ spec:
 # [END istio_istio_samples_stackdriver_metrics_instance_server_response_latencies]
 ---
 # [START istio_istio_samples_stackdriver_metrics_instance_client_roundtrip_latencies]
-apiVersion: config.istio.io/v1alpha1
+apiVersion: config.istio.io/v1alpha2
 kind: instance
 metadata:
   labels:
@@ -596,7 +596,7 @@ spec:
 # [END istio_istio_samples_stackdriver_metrics_instance_client_roundtrip_latencies]
 ---
 # [START istio_istio_samples_stackdriver_metrics_instance_server_received_bytes_count]
-apiVersion: config.istio.io/v1alpha1
+apiVersion: config.istio.io/v1alpha2
 kind: instance
 metadata:
   labels:
@@ -636,7 +636,7 @@ spec:
 # [END istio_istio_samples_stackdriver_metrics_instance_server_received_bytes_count]
 ---
 # [START istio_istio_samples_stackdriver_metrics_instance_client_received_bytes_count]
-apiVersion: config.istio.io/v1alpha1
+apiVersion: config.istio.io/v1alpha2
 kind: instance
 metadata:
   labels:
@@ -673,7 +673,7 @@ spec:
 # [END istio_istio_samples_stackdriver_metrics_instance_client_received_bytes_count]
 ---
 # [START istio_istio_samples_stackdriver_metrics_instance_server_sent_bytes_count]
-apiVersion: config.istio.io/v1alpha1
+apiVersion: config.istio.io/v1alpha2
 kind: instance
 metadata:
   labels:
@@ -713,7 +713,7 @@ spec:
 # [END istio_istio_samples_stackdriver_metrics_instance_server_sent_bytes_count]
 ---
 # [START istio_istio_samples_stackdriver_metrics_instance_client_sent_bytes_count]
-apiVersion: config.istio.io/v1alpha1
+apiVersion: config.istio.io/v1alpha2
 kind: instance
 metadata:
   labels:
